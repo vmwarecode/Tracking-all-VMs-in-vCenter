@@ -1,0 +1,536 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1629809423203,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "01f52805-aa68-4626-b73d-e937b95190db",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1631001931008,
+      "lastUpdateUserId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "locked": false,
+      "name": "Traking All VMs in VC",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "67e73440-12bd-41e3-bb57-8c502c914156",
+            "widgetIdReceiver": "c2d0b798-c29d-4547-bbd6-82937011689d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c2d0b798-c29d-4547-bbd6-82937011689d",
+            "widgetIdReceiver": "b8c468b1-6f1c-43da-8654-08de19a166a2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c2d0b798-c29d-4547-bbd6-82937011689d",
+            "widgetIdReceiver": "da099b75-294d-4d1f-807b-c88679a31c46"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c2d0b798-c29d-4547-bbd6-82937011689d",
+            "widgetIdReceiver": "aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "67e73440-12bd-41e3-bb57-8c502c914156",
+            "widgetIdReceiver": "44241555-49ae-421f-a113-bd313a917527"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "67e73440-12bd-41e3-bb57-8c502c914156",
+            "widgetIdReceiver": "6c837fa6-654b-4fdb-8852-1ee41c65d8aa"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "67e73440-12bd-41e3-bb57-8c502c914156",
+            "widgetIdReceiver": "9724093c-e92b-4cd2-9c64-50baaff95fca"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 600,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-4",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World"
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VM Folders",
+               "traversalSpecId": null,
+               "viewDefinitionId": "b2cf520e-06d9-45bd-bb0c-43db17fad487"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 495,
+            "id": "67e73440-12bd-41e3-bb57-8c502c914156",
+            "states": [
+               {
+                  "key": "permSelectedDate_widget_01f52805-aa68-4626-b73d-e937b95190db_67e73440-12bd-41e3-bb57-8c502c914156",
+                  "value": "s%3A%7B%22minType%22%3A%22.TimeIntervalControl%22%2C%22advancedTimeMode%22%3Afalse%2C%22fromTime%22%3Anull%2C%22unit%22%3A%22DAYS%22%2C%22count%22%3A7%2C%22priorUnit%22%3Anull%2C%22priorCount%22%3Anull%2C%22startSubUnit%22%3Anull%2C%22startPeriod%22%3Anull%2C%22toTime%22%3Anull%2C%22endUnit%22%3Anull%2C%22endCount%22%3Anull%2C%22endSubUnit%22%3Anull%2C%22endPeriod%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_01f52805-aa68-4626-b73d-e937b95190db_67e73440-12bd-41e3-bb57-8c502c914156",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permPageSize_widget_01f52805-aa68-4626-b73d-e937b95190db_67e73440-12bd-41e3-bb57-8c502c914156",
+                  "value": "n%3A1000"
+               }
+            ],
+            "title": "VM Folders",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "VM List View",
+               "traversalSpecId": "",
+               "viewDefinitionId": "5792769c-f291-4521-832b-692cf24a4c78"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 9,
+               "x": 4,
+               "y": 1
+            },
+            "height": 495,
+            "id": "c2d0b798-c29d-4547-bbd6-82937011689d",
+            "states": [
+               {
+                  "key": "permSelectedDate_widget_01f52805-aa68-4626-b73d-e937b95190db_c2d0b798-c29d-4547-bbd6-82937011689d",
+                  "value": "s%3A%7B%22minType%22%3A%22.TimeIntervalControl%22%2C%22advancedTimeMode%22%3Afalse%2C%22fromTime%22%3Anull%2C%22unit%22%3A%22DAYS%22%2C%22count%22%3A7%2C%22priorUnit%22%3Anull%2C%22priorCount%22%3Anull%2C%22startSubUnit%22%3Anull%2C%22startPeriod%22%3Anull%2C%22toTime%22%3Anull%2C%22endUnit%22%3Anull%2C%22endCount%22%3Anull%2C%22endSubUnit%22%3Anull%2C%22endPeriod%22%3Anull%7D"
+               },
+               {
+                  "key": "permPageSize_widget_01f52805-aa68-4626-b73d-e937b95190db_c2d0b798-c29d-4547-bbd6-82937011689d",
+                  "value": "n%3A1000"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_01f52805-aa68-4626-b73d-e937b95190db_c2d0b798-c29d-4547-bbd6-82937011689d",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "VM List View",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel6764-1",
+                     "isStringMetric": false,
+                     "metricKey": "cpu|usage_average",
+                     "metricName": "CPU|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Virtual Machine",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "CPU"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 1,
+               "y": 10
+            },
+            "height": 381,
+            "id": "b8c468b1-6f1c-43da-8654-08de19a166a2",
+            "states": [
+               {
+                  "key": "permDateRange_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_b8c468b1-6f1c-43da-8654-08de19a166a2",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_b8c468b1-6f1c-43da-8654-08de19a166a2",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_b8c468b1-6f1c-43da-8654-08de19a166a2",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_b8c468b1-6f1c-43da-8654-08de19a166a2",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "CPU",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel9154-1",
+                     "isStringMetric": false,
+                     "metricKey": "mem|usage_average",
+                     "metricName": "Memory|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Virtual Machine",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Mwmory"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 5,
+               "y": 10
+            },
+            "height": 380,
+            "id": "da099b75-294d-4d1f-807b-c88679a31c46",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_01f52805-aa68-4626-b73d-e937b95190db_da099b75-294d-4d1f-807b-c88679a31c46",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_da099b75-294d-4d1f-807b-c88679a31c46",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_da099b75-294d-4d1f-807b-c88679a31c46",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_da099b75-294d-4d1f-807b-c88679a31c46",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_da099b75-294d-4d1f-807b-c88679a31c46",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Mwmory",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel11769-1",
+                     "isStringMetric": false,
+                     "metricKey": "diskspace|workload",
+                     "metricName": "Disk Space|Workload",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Virtual Machine",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Disk Space"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 9,
+               "y": 10
+            },
+            "height": 381,
+            "id": "aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_01f52805-aa68-4626-b73d-e937b95190db_aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_01f52805-aa68-4626-b73d-e937b95190db_aecc4ce0-ab1c-4a34-a7e4-83ea0b27cd22",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Disk Space",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "CPU Recommended Size (MHz)",
+                     "metricKey": "OnlineCapacityAnalytics|cpu|recommendedSize",
+                     "metricName": "Capacity Analytics Generated|CPU|Recommended Size (MHz)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "VM IP",
+                     "metricKey": "summary|guest|ipAddress",
+                     "metricName": "Summary|Guest Operating System|Guest OS IP Address",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "cpu|usage_average",
+                  "name": "CPU|Usage (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Top-5 VMs CPU Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 17
+            },
+            "height": 324,
+            "id": "44241555-49ae-421f-a113-bd313a917527",
+            "title": "Top-5 VMs CPU Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "mem|usage_average",
+                  "name": "Memory|Usage (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Top-5 VMs Memory Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 17
+            },
+            "height": 324,
+            "id": "6c837fa6-654b-4fdb-8852-1ee41c65d8aa",
+            "title": "Top-5 VMs Memory Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "diskspace|workload",
+                  "name": "Disk Space|Workload (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Top-5 VMs Disk Workload%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 17
+            },
+            "height": 324,
+            "id": "9724093c-e92b-4cd2-9c64-50baaff95fca",
+            "title": "Top-5 VMs Disk Workload%",
+            "type": "ParetoAnalysis"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "vSphere World",
+         "resourceKindKey": "vSphere World"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "VirtualMachine"
+      }]
+   },
+   "uuid": "854013b2-d122-4dbb-90aa-acb558abee95"
+}
